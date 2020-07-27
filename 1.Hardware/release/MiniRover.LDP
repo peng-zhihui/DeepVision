@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: I:\onWorking\MiniRover\1.Hardware\TianWen-1\MiniRover.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=minirover-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=minirover-slotholes.txt|DrillLayers=gtl,gbl

@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: MiniRover.PcbDoc   ÷‹“ª 07-27  19:15:33
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top1 to Bottom4
+ASCII RoundHoles File : MiniRover-RoundHoles.TXT
+ASCII SlotHoles File : MiniRover-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             195       PTH        0.00inch (0.00mm)
+T2      24mil (0.6mm)                                             Slot              4         PTH        0.00inch (0.00mm)
+T3      26mil (0.65mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T4      32mil (0.8mm)                                             Round             2         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              203
+
+Total Processing Time (hh:mm:ss) : 00:00:00
