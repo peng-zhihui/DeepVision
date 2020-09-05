@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/main_activity_root"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#f8f9fe"
+             tools:context=".Activities.MainActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ai"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/gradient_main_background"/>
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240dp"
+        android:shadowColor="#55000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="10"
+        android:text="@string/product_name"
+        android:textAlignment="center"
+        android:textColor="#696b71"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="275dp"
+        android:gravity="center"
+        android:text="@string/product_version"
+        android:textAlignment="center"
+        android:textColor="#d9d9d9"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/evaporateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="295dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#55000000"
+        android:shadowRadius="10"
+        android:text="算法 Algorithm"
+        android:textAlignment="center"
+        android:textColor="#696b71"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <com.ablanco.parallax.ParallaxContainer
+        android:id="@+id/mode_live_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="306dp"
+        android:background="#00000000"
+        android:visibility="invisible">
+
+        <com.ablanco.parallax.ParallaxView
+            android:id="@+id/button_live_preview"
+            android:layout_width="285dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#00000000"
+            app:firstLayerAppliesParallax="true"
+            app:parallaxMovementDistance="15dp"
+            app:touchMode="pressed">
+
+            <com.ablanco.parallax.LayerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/shape_select_live_bg"/>
+            </com.ablanco.parallax.LayerView>
+
+            <com.ablanco.parallax.LayerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView_live"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="75dp"
+                    android:contentDescription="TODO"
+                    android:src="@mipmap/homepage_icon_live"/>
+
+                <TextView
+                    android:id="@+id/textView_live"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="109dp"
+                    android:text="@string/live_preview_mode_button"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:typeface="sans"/>
+            </com.ablanco.parallax.LayerView>
+        </com.ablanco.parallax.ParallaxView>
+    </com.ablanco.parallax.ParallaxContainer>
+
+    <com.ablanco.parallax.ParallaxContainer
+        android:id="@+id/mode_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="419dp"
+        android:background="#00000000"
+        android:visibility="invisible">
+
+        <com.ablanco.parallax.ParallaxView
+            android:id="@+id/button_gallery"
+            android:layout_width="285dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#00000000"
+            app:firstLayerAppliesParallax="true"
+            app:parallaxMovementDistance="15dp"
+            app:touchMode="pressed">
+
+            <com.ablanco.parallax.LayerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/shape_select_photo_bg"/>
+            </com.ablanco.parallax.LayerView>
+
+            <com.ablanco.parallax.LayerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView_gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="75dp"
+                    android:contentDescription="TODO"
+                    android:src="@mipmap/homepage_icon_gallery"/>
+
+                <TextView
+                    android:id="@+id/textView_gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="109dp"
+                    android:text="@string/gallery_mode_button"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:typeface="sans"/>
+            </com.ablanco.parallax.LayerView>
+        </com.ablanco.parallax.ParallaxView>
+    </com.ablanco.parallax.ParallaxContainer>
+
+    <com.ablanco.parallax.ParallaxContainer
+        android:id="@+id/mode_3d"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="532dp"
+        android:background="#00000000"
+        android:visibility="invisible">
+
+        <com.ablanco.parallax.ParallaxView
+            android:id="@+id/button_3d"
+            android:layout_width="285dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#00000000"
+            app:firstLayerAppliesParallax="true"
+            app:parallaxMovementDistance="15dp"
+            app:touchMode="pressed">
+
+            <com.ablanco.parallax.LayerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/shape_select_3d_bg"/>
+            </com.ablanco.parallax.LayerView>
+
+            <com.ablanco.parallax.LayerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView_3d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="75dp"
+                    android:contentDescription="TODO"
+                    android:src="@mipmap/homepage_icon_3d"/>
+
+                <TextView
+                    android:id="@+id/textView_3d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="109dp"
+                    android:text="@string/scene_3d_mode_button"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:typeface="sans"/>
+            </com.ablanco.parallax.LayerView>
+        </com.ablanco.parallax.ParallaxView>
+    </com.ablanco.parallax.ParallaxContainer>
+
+    <TextView
+        android:id="@+id/product_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/powered_by"
+        android:textAlignment="center"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+</FrameLayout>

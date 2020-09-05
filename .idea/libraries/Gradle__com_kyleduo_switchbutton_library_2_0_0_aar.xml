@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kyleduo.switchbutton:library:2.0.0@aar">
+    <CLASSES>
+      <root url="file://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/dfd52014567c0ee2392df456b10a11e1/AndroidManifest.xml" />
+      <root url="jar://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/dfd52014567c0ee2392df456b10a11e1/jars/classes.jar!/" />
+      <root url="file://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/dfd52014567c0ee2392df456b10a11e1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Program Data/AndroidStudio/Gradle/caches/modules-2/files-2.1/com.kyleduo.switchbutton/library/2.0.0/9c3a83534785679eb9f58ac9b1150e3b31f6916d/library-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Program Data/AndroidStudio/Gradle/caches/modules-2/files-2.1/com.kyleduo.switchbutton/library/2.0.0/f6c0cce5e0c5dd42f80863ca20c1733698b184dd/library-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

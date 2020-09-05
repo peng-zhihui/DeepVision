@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">模·视</string>
+    <string name="live_preview_mode_button">实时预览</string>
+    <string name="gallery_mode_button">单帧算法</string>
+    <string name="scene_3d_mode_button">3D 场景</string>
+
+    <string name="product_name">「  CV算法演示平台  」</string>
+    <string name="product_version">-V2.1-</string>
+    <string name="powered_by">By 稚晖</string>
+
+    <string name="err_camera">Camera Permission Denied</string>
+    <string name="err_gallery">Gallery Permission Denied</string>
+    <string name="title_activity_gallery_pick">GalleryPickActivity</string>
+    <string name="title_activity_gallery_pick_result">GalleryPickResultActivity</string>
+
+</resources>

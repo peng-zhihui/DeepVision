@@ -1,0 +1,16 @@
+
+{
+	"buildFiles" : [ "I:/onWorking/DeepVision/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\Green\\Android\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build I:\\onWorking\\DeepVision\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"toolchains" : 
+	{
+		"1380036241" : 
+		{
+			"cCompilerExecutable" : "D:/Green/Android/NDK/android-ndk-r17/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Green/Android/NDK/android-ndk-r17/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :lib_opencv_348:@aar">
+    <CLASSES>
+      <root url="file://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/1375ea9587e6ea5a4ff4284e05c5a1ad/AndroidManifest.xml" />
+      <root url="jar://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/1375ea9587e6ea5a4ff4284e05c5a1ad/jars/classes.jar!/" />
+      <root url="file://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/1375ea9587e6ea5a4ff4284e05c5a1ad/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

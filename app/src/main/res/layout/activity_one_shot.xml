@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:fancy="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/one_shot_root"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/gradient_main_background"
+              android:orientation="vertical"
+              tools:context=".activities.OneShotActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="选择算法"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <co.ceryle.radiorealbutton.RadioRealButtonGroup
+        android:id="@+id/select_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:rrbg_animateDrawables_enter="overshoot"
+        app:rrbg_animateTexts_enter="overshoot"
+        app:rrbg_dividerColor="#696b71"
+        app:rrbg_dividerSize="1dp"
+        app:rrbg_radius="10dp"
+        app:rrbg_selectorColor="#ffffff"
+        app:rrbg_selectorSize="6dp">
+
+        <co.ceryle.radiorealbutton.RadioRealButton
+            android:id="@+id/select_color_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rrb_backgroundColor="#cccccc"
+            app:rrb_drawableHeight="36dp"
+            app:rrb_drawablePadding="8dp"
+            app:rrb_drawableWidth="36dp"
+            app:rrb_ripple="true"
+            app:rrb_rippleColor="#696b71"
+            app:rrb_text="搜索"
+            app:rrb_textColor="#696b71"/>
+
+    </co.ceryle.radiorealbutton.RadioRealButtonGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/im_one_shot_matting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@mipmap/galerry_pick_icon_matting"
+                android:elevation="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="15dp"
+                android:alpha="0.7"
+                android:background="@drawable/shape_label_bg"
+                android:elevation="35dp"
+                android:gravity="left"
+                android:text="人像分割"
+                android:textColor="#353535"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/im_one_shot_super_resolution"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@mipmap/one_shot_super_resolution"
+                android:elevation="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="15dp"
+                android:alpha="0.7"
+                android:background="@drawable/shape_label_bg"
+                android:elevation="35dp"
+                android:gravity="left"
+                android:text="超分辨率"
+                android:textColor="#353535"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape_one_shot_bg"
+                android:elevation="20dp"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/plus"
+                android:elevation="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="bottom"
+                android:paddingBottom="20dp"
+                android:text="更多算法待添加"
+                android:textColor="#1E88E5"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1">
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

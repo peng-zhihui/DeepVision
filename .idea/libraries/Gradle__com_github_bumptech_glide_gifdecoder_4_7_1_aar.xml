@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bumptech.glide:gifdecoder:4.7.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/dd96359409c64bc527aee23f7532c4e3/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/dd96359409c64bc527aee23f7532c4e3/AndroidManifest.xml" />
+      <root url="jar://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/dd96359409c64bc527aee23f7532c4e3/jars/classes.jar!/" />
+      <root url="file://D:/Program Data/AndroidStudio/Gradle/caches/transforms-2/files-2.1/dd96359409c64bc527aee23f7532c4e3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Program Data/AndroidStudio/Gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.7.1/9656854ede6f1411671d801e40a4a53368156d47/gifdecoder-4.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Program Data/AndroidStudio/Gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.7.1/82de500fb3793f25fc17faebf438b83298dc6689/gifdecoder-4.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

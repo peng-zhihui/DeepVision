@@ -1,0 +1,2 @@
+C:/Users/80233596/Desktop/Infinity-Cam-release-2.1/Infinity-Cam/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/80233596/Desktop/Infinity-Cam-release-2.1/Infinity-Cam/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

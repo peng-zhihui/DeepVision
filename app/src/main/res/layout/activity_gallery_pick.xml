@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/one_shot_root"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/gradient_gallery_background"
+             android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:text="选择算法"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/shape_select_button_bg"
+            android:padding="8dp"
+            android:text="搜索"
+            android:textColor="#696b71"
+            android:textSize="13sp"/>
+
+        <!--<co.ceryle.radiorealbutton.RadioRealButtonGroup-->
+        <!--android:id="@+id/select_color"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="20dp"-->
+        <!--app:rrbg_animateDrawables_enter="overshoot"-->
+        <!--app:rrbg_animateTexts_enter="overshoot"-->
+        <!--app:rrbg_dividerColor="#696b71"-->
+        <!--app:rrbg_dividerSize="1dp"-->
+        <!--app:rrbg_radius="10dp"-->
+        <!--app:rrbg_selectorColor="#ffffff"-->
+        <!--app:rrbg_selectorSize="6dp">-->
+
+        <!--<co.ceryle.radiorealbutton.RadioRealButton-->
+        <!--android:id="@+id/select_color_red"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:rrb_backgroundColor="#cccccc"-->
+        <!--app:rrb_drawableHeight="36dp"-->
+        <!--app:rrb_drawablePadding="8dp"-->
+        <!--app:rrb_drawableWidth="36dp"-->
+        <!--app:rrb_ripple="true"-->
+        <!--app:rrb_rippleColor="#696b71"-->
+        <!--app:rrb_text="搜索"-->
+        <!--app:rrb_textColor="#696b71"/>-->
+        <!--</co.ceryle.radiorealbutton.RadioRealButtonGroup>-->
+
+
+        <xyz.pengzhihui.lib_fancy_ui_kit.DragGridView.DragGridView
+            android:id="@+id/drag_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:horizontalSpacing="20dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="20dp">
+        </xyz.pengzhihui.lib_fancy_ui_kit.DragGridView.DragGridView>
+    </LinearLayout>
+
+    <ImageView
+        android:visibility="gone"
+        android:scaleType="centerCrop"
+        android:id="@+id/gallery_pick_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:src="@mipmap/pick_guide"/>
+
+</FrameLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="是否进行滤波"
+                android:textColor="@color/colorCategoryBackground"/>
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/face_detect_use_stab"
+                style="@style/SwitchButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="true"
+                app:kswBackDrawable="@drawable/flyme_back_drawable"
+                app:kswThumbDrawable="@drawable/flyme_thumb_drawable"
+                app:kswThumbHeight="16dp"
+                app:kswThumbRangeRatio="2.2"
+                app:kswThumbWidth="16dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="是否计算框角度"
+                android:textColor="@color/colorCategoryBackground"/>
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/face_detect_calc_angle"
+                style="@style/SwitchButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="true"
+                app:kswBackDrawable="@drawable/flyme_back_drawable"
+                app:kswThumbDrawable="@drawable/flyme_thumb_drawable"
+                app:kswThumbHeight="16dp"
+                app:kswThumbRangeRatio="2.2"
+                app:kswThumbWidth="16dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

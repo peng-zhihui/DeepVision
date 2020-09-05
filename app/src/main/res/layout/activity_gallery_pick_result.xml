@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/checkerboard"/>
+
+
+    <xyz.pengzhihui.lib_fancy_ui_kit.FancyImageViewer.SubsamplingScaleImageView
+        android:id="@+id/image_view_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/image_process_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="#ffffff"/>
+
+    <xyz.pengzhihui.lib_fancy_ui_kit.FancyUploadButton.SlideLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="20dp"
+        android:background="#00000000"
+        android:elevation="15dp">
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1px"
+                android:background="@drawable/shape_slide_background"/>
+
+            <TextView
+                android:id="@+id/network_status"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="asdf"
+                android:textColor="@color/colorInfoLayoutBackGround"
+                android:textSize="13sp"/>
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/loading_indicator_view"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="6dp"
+                android:padding="5dp"
+                app:indicatorName="BallPulseIndicator"/>
+
+            <ImageView
+                android:id="@+id/slide_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="6dp"
+                android:padding="5dp"
+                android:src="@mipmap/icon_slide_picture"/>
+
+        </FrameLayout>
+    </xyz.pengzhihui.lib_fancy_ui_kit.FancyUploadButton.SlideLayout>
+
+    <ImageView
+        android:id="@+id/image_process_arrow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/icon_slide_arrow"/>
+
+    <ImageView
+        android:id="@+id/image_compare_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:alpha="0.9"
+        android:elevation="30dp"
+        android:src="@mipmap/icon_image_compare_button"/>
+
+    <ImageView
+        android:id="@+id/gallery_pick_result_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/pick_result_guide"
+        android:visibility="gone"/>
+
+</FrameLayout>
