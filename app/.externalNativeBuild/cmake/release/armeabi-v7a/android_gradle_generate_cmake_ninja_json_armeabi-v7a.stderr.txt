@@ -1,7 +1,0 @@
-CMake Warning at C:/Green/AndroidSDK/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
-  Using custom NDK path (ANDROID_NDK is set): C:\Green\AndroidSDK\ndk-bundle
-Call Stack (most recent call first):
-  C:/Green/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
-  CMakeLists.txt
-
-

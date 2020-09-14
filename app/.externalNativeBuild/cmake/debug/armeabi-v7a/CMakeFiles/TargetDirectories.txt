@@ -1,2 +1,0 @@
-I:/onWorking/DeepVision/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-I:/onWorking/DeepVision/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
